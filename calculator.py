@@ -13,6 +13,8 @@ def add(a: int, b: int) -> int:
 
 def triangle_area(width, height):
     return 0.5 * width * height
+def rectangle_area(width, height):
+    return width * height
 
 if __name__ == "__main__":
 
@@ -22,3 +24,4 @@ if __name__ == "__main__":
     print(f"7 - 3 = {sub(7, 3)}")
     print(f"10 * 4 = {mul(10, 4)}")
     print(f"triangle {triangle_area(3,5)}")
+    print(f"rectangle: {rectangle_area(3,5)}")
